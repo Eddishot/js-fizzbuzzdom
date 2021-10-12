@@ -1,6 +1,6 @@
 
  
-.container{
+main{
     background-color:rgb(4, 78, 102);
     
 } 
@@ -8,10 +8,12 @@
 h1{
     color: white;
     text-align: center;
+    padding: 35px 0px;
+    font-size: 59px;
 }
 
-.row-cols-7 > *{
+.row-cols-7 > div{
     width: calc(100% / 7);
     flex: 0 0 auto;
-    margin: auto;
+   
 }
