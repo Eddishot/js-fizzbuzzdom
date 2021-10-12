@@ -10,7 +10,8 @@ h1{
     text-align: center;
 }
 
-.row-cols-7{
-    width: calc(100 / 7);
+.row-cols-7 > *{
+    width: calc(100% / 7);
     flex: 0 0 auto;
+    margin: auto;
 }
