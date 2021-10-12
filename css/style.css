@@ -1,0 +1,16 @@
+
+ 
+.container{
+    background-color:rgb(4, 78, 102);
+    
+} 
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.row-cols-7{
+    width: calc(100 / 7);
+    flex: 0 0 auto;
+}
